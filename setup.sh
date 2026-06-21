@@ -1,5 +1,3 @@
-
-set -e
 GREEN='\033[0;32m'; NC='\033[0m'
 info() { echo -e "${GREEN}[+]${NC} $1"; }
 
@@ -48,7 +46,7 @@ echo "  python analyse.py --file path/to/email.txt"
 echo "  python analyse.py --interactive"
 echo "  python analyse.py --history"
 echo ""
-echo "  Kaggle dataset (for best accuracy):"
+echo "  Kaggle dataset:"
 echo "  https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset"
 echo "  Place CSV at: data/phishing_email.csv then re-run: python train.py"
 echo "========================================================"
