@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 GREEN='\033[0;32m'; NC='\033[0m'
 info() { echo -e "${GREEN}[+]${NC} $1"; }
 
